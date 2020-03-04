@@ -1,0 +1,2 @@
+#!/bin/sh
+docker run --name nginx-hello -d -p 8080:80 --rm cjineson/nginx-hello:0.0.1
